@@ -1,75 +1,54 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-<title>Work Form</title>
-<style>
-p {margin-left:20px;}
-</style>
-</head>
-<body>
-<h1 align="center">HTML work exercise</h1>
-<leftmargin:20px><b><p>Contact Form</p></b>
-
-<form name="html" action="" method="post">
-
-<table border="0">
-<tr>
-<td>Your name:<td><input type="text"  name="name"></tr>
-
-<tr>
-<td>Email   :<td><input type="text" style="background:yellow;" name="email"><br></tr>
-
-<tr>
-<td>Phone Number:<td><input type="text" style="background:yellow;" name="phone"><br></tr>
-
-<tr>
-<td>Website:<td><input type="text" name="website" size="30" value="http://"><br><br>
-</tr>
-</table>
-
-comments:<br>
-<textarea rows="5" cols="20"></textarea><br>
-
-Your Name:<input type="text" style="background:yellow;" name="tfield"><br><br>
-
-Password:<input type="password" name="password"><br><br>
-
-Do you like pizza ?<br>
-<input type="radio" name="pizza">Yes<br>
-<input type="radio" name="pizza">No<br>
-<input type="radio" name="pizza">Maybe<br>
-<input type="radio" name="pizza">Never Tried<br><br>
-
-<input type="checkbox" name="check">Tick this checkbox if you like our service<br><br>
-
-Anything you would like to say ?<br>
-<textarea rows="5" cols="25"></textarea><br><br>
-
-I like:<br><br>
-<select size="4">
-<option value="mushroom">mushroom</option>
-<option value="olives">olives</option>
-<option value="onions">onions</option>
-<option value="tomatoes">tomatoes</option>
-<option value="green peppers">green peppers</option>
-</select><br><br>
-
-
-your favourite colour:<br>
-<select>
-<option value="red">red</option>
-<option value="blue">blue</option>
-<option value="green">green</option>
-<option value="white">white</option>
-</select><br><br>
-
-Attach file:<br>
-<input type="file" name="attach file"><br><br>
-
-<input type="submit" value="submit">
-<input type="reset" name="reset">
-
-
-</form>
-</body>
-</html>
+    <head>
+        <title> Consumer Data </title>
+    </head>
+    <body>
+        Consumer details
+	    <form>
+	        <table>
+	            <tr>
+		            <td>Name:</td>
+		            <td><input type = "text"></td>
+		        </tr>
+                <tr>		
+                    <td>Email</td>
+		            <td><input type = "text" style = "background-color:yellow;"></td>
+		        </tr>  
+		        <tr>		
+                    <td>Phone</td>
+		            <td><input type = "text" style = "background-color:yellow;"></td>
+		        </tr>
+                <tr>
+                    <td>Website</td>
+                    <td><input type = "text" size = "30" value = "http://"></td>
+		        </tr>
+	        </table>
+            Comments<br>
+	        <textarea cols = "40" rows = "5"></textarea><br>
+	        password: <input type = "password"><br>
+	  
+	        Do you like pizza ?<br>
+	        <input type = "radio" name = "pizza" >Yes<br>
+	        <input type = "radio" name = "pizza" >No<br>
+	        <input type = "radio" name = "pizza" >Maybe<br>
+	        <input type = "radio" name = "pizza" >Never Tried<br><br>
+	  
+	        <input type = "checkbox">Tick this checkbox if you like our service<br><br>
+	        Anything you would like to say about our service ?<br>
+	        <textarea cols = "40" rows = "5"></textarea><br>
+	        I like <br>
+	        <select size = "4">
+	            <option value = "mushrooms">mushrooms</option>
+		        <option value = "onions">onions</option>
+		        <option value = "pepper">pepper</option>
+		        <option value = "olives">olives</option>
+		        <option value = "capsicum">capsicum</option>
+		        <option value = "chilli">chilli</option>
+	        </select><br><br>
+	        <input type = "file" name = "attach file"><br>
+	        <input type = "submit" value = "submit">
+	        <input type = "reset" value = "reset form"><br>
+	    </form>
+    </body>
+</html>  
