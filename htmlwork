@@ -5,50 +5,48 @@
     </head>
     <body>
         Consumer details
-	    <form>
-	        <table>
-	            <tr>
-		            <td>Name:</td>
-		            <td><input type = "text"></td>
-		          </tr>
-                <tr>		
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type = "text"></td>
+                </tr>
+                <tr>        
                     <td>Email</td>
-		            <td><input type = "text" style = "background-color:yellow;"></td>
-		        </tr>  
-		        <tr>		
+                    <td><input type = "text" style = "background-color:yellow;"></td>
+                </tr>  
+                <tr>        
                     <td>Phone</td>
-		            <td><input type = "text" style = "background-color:yellow;"></td>
-		        </tr>
+                    <td><input type = "text" style = "background-color:yellow;"></td>
+                </tr>
                 <tr>
                     <td>Website</td>
                     <td><input type = "text" size = "30" value = "http://"></td>
-		        </tr>
-	        </table>
+                </tr>
+            </table>
             Comments<br>
-	        <textarea cols = "40" rows = "5"></textarea><br>
-	        password: <input type = "password"><br>
-	  
-	        Do you like pizza ?<br>
-	        <input type = "radio" name = "pizza" >Yes<br>
-	        <input type = "radio" name = "pizza" >No<br>
-	        <input type = "radio" name = "pizza" >Maybe<br>
-	        <input type = "radio" name = "pizza" >Never Tried<br><br>
-	  
-	        <input type = "checkbox">Tick this checkbox if you like our service<br><br>
-	        Anything you would like to say about our service ?<br>
-	        <textarea cols = "40" rows = "5"></textarea><br>
-	        I like <br>
-	        <select size = "4">
-	          <option value = "mushrooms">mushrooms</option>
-		        <option value = "onions">onions</option>
-		        <option value = "pepper">pepper</option>
-		        <option value = "olives">olives</option>
-		        <option value = "capsicum">capsicum</option>
-		        <option value = "chilli">chilli</option>
-	        </select><br><br>
-	        <input type = "file" name = "attach file"><br>
-	        <input type = "submit" value = "submit">
-	        <input type = "reset" value = "reset form"><br>
-	    </form>
+            <textarea cols = "40" rows = "5"></textarea><br>
+            password: <input type = "password"><br>
+            Do you like pizza ?<br>
+            <input type = "radio" name = "pizza" >Yes<br>
+            <input type = "radio" name = "pizza" >No<br>
+            <input type = "radio" name = "pizza" >Maybe<br>
+            <input type = "radio" name = "pizza" >Never Tried<br><br>
+            <input type = "checkbox">Tick this checkbox if you like our service<br><br>
+            Anything you would like to say about our service ?<br>
+            <textarea cols = "40" rows = "5"></textarea><br>
+            I like <br>
+            <select size = "4">
+                <option value = "mushrooms">mushrooms</option>
+                <option value = "onions">onions</option>
+                <option value = "pepper">pepper</option>
+                <option value = "olives">olives</option>
+                <option value = "capsicum">capsicum</option>
+                <option value = "chilli">chilli</option>
+            </select><br><br>
+            <input type = "file" name = "attach file"><br>
+            <input type = "submit" value = "submit">
+            <input type = "reset" value = "reset form"><br>
+        </form>
     </body>
-</html>  
+</html>
