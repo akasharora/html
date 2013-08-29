@@ -10,7 +10,7 @@
 	            <tr>
 		            <td>Name:</td>
 		            <td><input type = "text"></td>
-		        </tr>
+		          </tr>
                 <tr>		
                     <td>Email</td>
 		            <td><input type = "text" style = "background-color:yellow;"></td>
@@ -39,7 +39,7 @@
 	        <textarea cols = "40" rows = "5"></textarea><br>
 	        I like <br>
 	        <select size = "4">
-	            <option value = "mushrooms">mushrooms</option>
+	          <option value = "mushrooms">mushrooms</option>
 		        <option value = "onions">onions</option>
 		        <option value = "pepper">pepper</option>
 		        <option value = "olives">olives</option>
